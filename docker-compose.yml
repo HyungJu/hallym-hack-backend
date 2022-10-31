@@ -1,0 +1,16 @@
+version: "3.9"
+services:
+  hallym-backend:
+    build:
+      context: .
+    #    environment:
+    #      MYSQL_HOST: localhost
+    #      MYSQL_PORT: 3306
+    #      MYSQL_USERNAME: root
+    #      MYSQL_PASSWORD: ""
+    #      MYSQL_DATABASE: hallym
+    ports:
+      - '3000:3000'
+
+volumes:
+  hallym-backend:
